@@ -7,15 +7,17 @@
 #include <QtWidgets/QLineEdit>
 #include <exception>
 #include <QRegExp>
+
+
 #include <iostream>
 using namespace std;
-
 
 
 class CallerMainWindow : public QMainWindow{
 Q_OBJECT
 public:
     QLineEdit *lineEdit = nullptr;
+
     CallerMainWindow(QWidget *parent = nullptr): QMainWindow(parent){ }
 
 public slots:
